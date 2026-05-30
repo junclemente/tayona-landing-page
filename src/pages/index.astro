@@ -1,5 +1,5 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro"
 ---
 
 <Layout>
@@ -16,6 +16,19 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </section>
 
+  <!-- Meaning -->
+  <section class="meaning-section">
+    <div class="container">
+      <h2>What does "Tayo Na" mean?</h2>
+      <p>
+        <em>Tayo na</em> is a Filipino phrase meaning <strong>"let's go"</strong
+        > — or more warmly,
+        <strong>"let's go together."</strong> It's the spirit of travel with the people
+        you love, and that's exactly what this app is about.
+      </p>
+    </div>
+  </section>
+
   <!-- Features -->
   <section class="features">
     <div class="container">
@@ -23,17 +36,25 @@ import Layout from '../layouts/Layout.astro';
         <div class="feature-card">
           <span class="feature-icon">🗺️</span>
           <h3>Plan before you book</h3>
-          <p>Add destinations, explore activities, and estimate costs before committing to anything.</p>
+          <p>
+            Add destinations, explore activities, and estimate costs before
+            committing to anything.
+          </p>
         </div>
         <div class="feature-card">
           <span class="feature-icon">👥</span>
           <h3>Built for groups</h3>
-          <p>Track members, split expenses, and keep everyone on the same page.</p>
+          <p>
+            Track members, split expenses, and keep everyone on the same page.
+          </p>
         </div>
         <div class="feature-card">
           <span class="feature-icon">✈️</span>
           <h3>From planning to takeoff</h3>
-          <p>Confirm your trip when you're ready and your plan becomes your itinerary.</p>
+          <p>
+            Confirm your trip when you're ready and your plan becomes your
+            itinerary.
+          </p>
         </div>
       </div>
     </div>
@@ -56,7 +77,10 @@ import Layout from '../layouts/Layout.astro';
           <div class="step-number">2</div>
           <div class="step-content">
             <h3>Plan destinations, activities, and budget</h3>
-            <p>Collaborate in real time, explore options, and track costs together.</p>
+            <p>
+              Collaborate in real time, explore options, and track costs
+              together.
+            </p>
           </div>
         </div>
         <div class="step-connector" aria-hidden="true"></div>
@@ -84,8 +108,14 @@ import Layout from '../layouts/Layout.astro';
   <section class="cta-section">
     <div class="container">
       <h2>Ready to travel smarter?</h2>
-      <a href="https://tayona.app" class="btn btn-primary">Start Planning Free</a>
+      <a href="https://tayona.app" class="btn btn-primary"
+        >Start Planning Free</a
+      >
       <p class="cta-sub">Free to use. Premium features coming soon.</p>
+      <p class="cta-privacy">
+        🔒 No account required. No data sent to any server. Everything stays on
+        your device.
+      </p>
     </div>
   </section>
 
@@ -116,7 +146,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .eyebrow {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: "Inter", system-ui, sans-serif;
     font-size: 0.8rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -126,7 +156,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .hero h1 {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: clamp(2.4rem, 6vw, 4rem);
     font-weight: 800;
     color: var(--text);
@@ -147,7 +177,7 @@ import Layout from '../layouts/Layout.astro';
     display: inline-block;
     padding: 0.85rem 2rem;
     border-radius: 8px;
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
@@ -191,7 +221,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .feature-card h3 {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--text);
@@ -211,7 +241,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .how-it-works h2 {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: clamp(1.6rem, 3vw, 2.2rem);
     font-weight: 800;
     color: var(--text);
@@ -240,7 +270,7 @@ import Layout from '../layouts/Layout.astro';
     border-radius: 50%;
     background: var(--primary);
     color: var(--bg);
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: 1rem;
     font-weight: 800;
     display: flex;
@@ -253,7 +283,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .step-content h3 {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: 1.05rem;
     font-weight: 700;
     color: var(--text);
@@ -281,7 +311,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   blockquote {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: clamp(1.3rem, 3vw, 1.85rem);
     font-weight: 700;
     color: var(--primary);
@@ -298,7 +328,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   .cta-section h2 {
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
     font-size: clamp(1.6rem, 3vw, 2.2rem);
     font-weight: 800;
     color: var(--text);
@@ -361,5 +391,35 @@ import Layout from '../layouts/Layout.astro';
     .step-content {
       padding-bottom: 0;
     }
+  }
+
+  /* Meaning */
+  .meaning-section {
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .meaning-section h2 {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 1.25rem;
+  }
+
+  .meaning-section p {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.75;
+  }
+
+  /* CTA Privacy */
+  .cta-privacy {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-muted);
   }
 </style>
