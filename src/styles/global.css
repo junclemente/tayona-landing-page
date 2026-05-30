@@ -7,12 +7,15 @@
 }
 
 :root {
-  --bg: #1A1B2E;
-  --accent: #BD93F9;
+  --bg: #0D0E1A;
+  --surface: #1A1B2E;
+  --primary: #8150F8;
+  --accent: #25D0EE;
+  --success: #50FA7B;
+  --warning: #FFB86C;
   --text: #F8F8F2;
-  --secondary: #94A3B8;
-  --surface: #252640;
-  --border: rgba(189, 147, 249, 0.15);
+  --text-muted: #6C7A8D;
+  --border: #2A2B3D;
 }
 
 html {
@@ -35,7 +38,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: var(--accent);
+  color: var(--primary);
   text-decoration: none;
 }
 
