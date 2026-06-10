@@ -1,0 +1,134 @@
+---
+---
+
+<section class="how-it-works">
+  <div class="container">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>Create a trip</h3>
+          <p>Solo or with your group — set up your trip in seconds.</p>
+        </div>
+      </div>
+      <div class="step-connector" aria-hidden="true"></div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Plan destinations, activities, and budget</h3>
+          <p>
+            Collaborate in real time, explore options, and track costs
+            together.
+          </p>
+        </div>
+      </div>
+      <div class="step-connector" aria-hidden="true"></div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>Confirm and go</h3>
+          <p>Your itinerary is ready. Time to pack.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .how-it-works {
+    padding: 5rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .how-it-works h2 {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 800;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .step-number {
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: var(--primary);
+    color: var(--bg);
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step-content {
+    padding-bottom: 0.25rem;
+  }
+
+  .step-content h3 {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.35rem;
+  }
+
+  .step-content p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .step-connector {
+    width: 2px;
+    height: 2rem;
+    background: var(--border);
+    margin-left: 1.2rem;
+  }
+
+  @media (min-width: 768px) {
+    .steps {
+      flex-direction: row;
+      align-items: flex-start;
+      max-width: 100%;
+      gap: 0;
+    }
+
+    .step {
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .step-connector {
+      width: 3rem;
+      height: 2px;
+      margin: 1.25rem 0 0;
+      align-self: flex-start;
+      flex-shrink: 0;
+    }
+
+    .step-content {
+      padding-bottom: 0;
+    }
+  }
+</style>

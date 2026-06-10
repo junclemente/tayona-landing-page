@@ -1,0 +1,72 @@
+---
+---
+
+<section class="features">
+  <div class="container">
+    <div class="features-grid">
+      <div class="feature-card">
+        <span class="feature-icon">🗺️</span>
+        <h3>Plan before you book</h3>
+        <p>
+          Add destinations, explore activities, and estimate costs before
+          committing to anything.
+        </p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">👥</span>
+        <h3>Built for groups</h3>
+        <p>
+          Track members, split expenses, and keep everyone on the same page.
+        </p>
+      </div>
+      <div class="feature-card">
+        <span class="feature-icon">✈️</span>
+        <h3>From planning to takeoff</h3>
+        <p>
+          Confirm your trip when you're ready and your plan becomes your
+          itinerary.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .features {
+    padding: 5rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .feature-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .feature-card h3 {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.6rem;
+  }
+
+  .feature-card p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+</style>
